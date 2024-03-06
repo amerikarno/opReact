@@ -1,12 +1,11 @@
 import React from "react";
-import Fullname from "./preinfo/Fullname"
+import Preinfo from "./preinfo/preinfo";
 
 const App = () => {
     return (
-        <div>
-            <h1>Test</h1>
-            <Fullname />
-        </div>
+        <>
+            <Preinfo />
+        </>
     )
 }
 
